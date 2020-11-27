@@ -1,0 +1,32 @@
+{
+  "name": "svg-hue-filter-matrix",
+  "version": "1.0.0",
+  "description": "A function that generates hue filter matrix for svg element feColorMatrix which simulates filter effect of photoshop.",
+  "main": "dist/index.js",
+  "module": "index.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "dependencies": {
+    "path": "^0.12.7",
+    "webpack": "^5.8.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.2.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raunicorn/svg-hue-filter-matrix.git"
+  },
+  "author": "raunicorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raunicorn/svg-hue-filter-matrix/issues"
+  },
+  "homepage": "https://github.com/raunicorn/svg-hue-filter-matrix#readme"
+}

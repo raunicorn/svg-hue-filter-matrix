@@ -1,2 +1,3 @@
 # svg-hue-filter-matrix
-A function generates hue filter matrix for svg element feColorMatrix.
+
+A function that generates hue filter matrix for svg element feColorMatrix which simulates filter effect of photoshop.
