@@ -1,6 +1,6 @@
 {
   "name": "svg-hue-filter-matrix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A function that generates hue filter matrix for svg element feColorMatrix which simulates filter effect of photoshop.",
   "main": "dist/index.js",
   "module": "index.js",
